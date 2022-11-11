@@ -1,6 +1,6 @@
-const AbstractLottoWinning = require('../AbstractLottoWinning/AbstractLottoWinning');
-const Money = require('../Money/Money');
-const PrinterWithBonusBall = require('../PrinterWithBonusBall/PrinterWithBonusBall');
+const AbstractLottoWinning = require("../AbstractLottoWinning/AbstractLottoWinning");
+const Money = require("../Money/Money");
+const PrinterWithBonusBall = require("../PrinterWithBonusBall/PrinterWithBonusBall");
 
 class Lotto2ndWinning extends AbstractLottoWinning {
   matchedNumberCount = 5;
